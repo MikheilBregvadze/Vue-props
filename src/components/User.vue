@@ -3,7 +3,8 @@
         <h1>The User Component</h1>
         <p>I'm an awesome User!</p>
         <button @click="changeMyname">Change my name</button>
-        <p>{{ name }}</p>
+        <p>USer Name {{ name }}</p>
+        <p>USer Age {{ age }}</p>
         <hr>
         <div class="row">
             <div class="col-xs-12 col-sm-6">
@@ -45,7 +46,7 @@
         components: {
             appUserDetail: UserDetail,
             appUserEdit: UserEdit
-        }
+        },
     }
 </script>
 
